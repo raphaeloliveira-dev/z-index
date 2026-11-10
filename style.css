@@ -1,0 +1,32 @@
+.container{
+    border-style: solid;
+    min-width: 97vw;
+    min-width: 45dvw;
+    min-width: 97vh;
+    min-height: 97dvh;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    background-color: gray;
+}
+
+.a{
+    background: red;
+    width: 70%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 1;
+    position: relative;
+    z-index: 2;
+}
+
+.b{
+    background: blue;
+    width: 65%;
+    height: 250px;
+    position: relative;
+    z-index: 1;
+}
+
